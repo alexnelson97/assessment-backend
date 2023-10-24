@@ -6,7 +6,6 @@ module.exports = {
       "Your Javascript skills are stellar.",
     ];
 
-    // choose random compliment
     let randomIndex = Math.floor(Math.random() * compliments.length);
     let randomCompliment = compliments[randomIndex];
 
